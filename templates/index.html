@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image to PDF Converter</title>
+    <meta name="author" content="Chiemeka Ifemegbulem">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free JPG to PDF Converter">
+    <meta name="keywords" content="Convert JPG to PDF, Image to PDF convert, Free JPG to PDF Converter, Converter, JPG to PDF, Free converter">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dist/style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/chiemekaifemegbulem/convert-JPG-to-PDF" target="_blank">Documentation</a>
+  </li>
+</ul><br><br>
+
+  <div class="uriropw">
+    <h1>Convert JPG to PDF</h1>
+    <h6 class="free">Free conversion without registration</h6>
+  </div>
+  <form method="post" class="file-uploader" action="/converted" enctype="multipart/form-data">
+  <div class="file-uploader__message-area">
+    <p>Select a file to upload</p>
+  </div>
+  <div class="file-chooser">
+    <input class="file-chooser__input" type="file" name="img" >
+  </div>
+  <input class="file-uploader__submit-button" type="submit" value="Convert-To-PDF">
+</form>
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        
+How to convert JPG to PDF online:
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <ul>
+         <li>Choose/Upload your image to the JPG to PDF converter.</li>
+         <li>Click ‘Convert-To-PDF’ and wait for the conversion to take place.</li>
+         <li>And that's all there is. Save the converted PDF to your computer.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Convert your 'PNG, JPG, JPEG' to PDF Online
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        Our JPEG to PDF converter is browser-based. That means that it works independently from your operating system—you can access it using a Mac, Windows, or Linux.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Fast & Easy JPG to PDF Converter
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        You can drag & drop your file into the toolbox above to quickly transform it from JPG to PDF.
+      </div>
+    </div>
+  </div>
+</div><br><br><br><br>
+<!-- Footer --> 
+ <div class="footer">
+       <p>Copyright &copy; 2024 All Rights Reserved.</p>
+  </div>
+<!-- End of Footer -->
+ <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="{{ url_for('static', filename='dist/script.js')}}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
