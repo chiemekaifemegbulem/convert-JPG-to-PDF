@@ -21,4 +21,4 @@ def download():
     filename = f1.split('.')[0]+'converted.pdf'
     return send_file(filename,as_attachment=True)
 
-app.run(host='127.0.0.1', port=8080, debug=True)
+app.run(debug=False)
