@@ -8,10 +8,9 @@ This web application allows you to effortlessly convert JPG images into a single
 
 ## Features
 
-- **User-Friendly Interface:** Easily navigate through the application with a clean and intuitive design.
+- **User-Friendly Interface:** Easily navigate through the application with a clean, intuitive and responsive design.
 - **Drag-and-Drop Support:** Simply drag and drop your JPG files into the designated area for quick and convenient conversion.
 - **Real-time Preview:** Instantly preview the images you've added before converting them to a PDF file.
-- **Customizable Settings:** Adjust the order of images and configure PDF settings according to your preferences.
 - **Responsive Design:** Enjoy a seamless experience across devices, thanks to the responsive HTML5, CSS, and Bootstrap 5 design.
 
 ## Technologies Used
@@ -27,7 +26,7 @@ This web application allows you to effortlessly convert JPG images into a single
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/jpg-to-pdf-converter.git
+    git clone https://github.com/chiemekaifemegbulem/convert-JPG-to-PDF.git
     ```
 
 2. **Install Dependencies**
@@ -37,7 +36,7 @@ This web application allows you to effortlessly convert JPG images into a single
 
 3. **Run the App**
     ```bash
-    python app.py
+    python App.py
     ```
 
 4. **Access the App**
@@ -45,8 +44,8 @@ This web application allows you to effortlessly convert JPG images into a single
 
 ## Contributing
 
-We welcome contributions! Feel free to open issues, submit pull requests, or provide feedback to help us improve.
+I welcome contributions! Feel free to open issues, submit pull requests, or provide feedback to help us improve.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
